@@ -1,6 +1,6 @@
 
 function modifier(){
-    window.location="http://127.0.0.1:5500/Index/index.html";
+    window.location="index.html";
 }
 
 window.onload=function(){
