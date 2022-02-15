@@ -3,7 +3,7 @@ window.onload=function(){
     document.getElementById("mail").innerHTML= mail;
 }
 
-function voyage(){window.location="http://127.0.0.1:5500/Voyage/Voyage.html"}
+function voyage(){window.location="Voyage.html"}
 
 function panier1(){
 	Swal.fire({
