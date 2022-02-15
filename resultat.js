@@ -14,7 +14,7 @@ $("p.text1").html(depart);
 $("p.text2").html(arrive);
 }
 
-function choix(){window.location="http://127.0.0.1:5500/Choix/choix.html"}
+function choix(){window.location="choix.html"}
 
 
 function panier(){
