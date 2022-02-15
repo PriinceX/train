@@ -30,7 +30,7 @@ window.onclick = function(event) {
   }
 }
 
-function resultat(){window.location="http://127.0.0.1:5500/Resultat/resultat.html"}
+function resultat(){window.location="resultat.html"}
 
 window.onload=function(){
   var depart =localStorage.getItem("depart");
@@ -39,7 +39,7 @@ window.onload=function(){
  document.getElementById("text2").innerHTML=arrive;
   }
 
-function voyage(){window.location="http://127.0.0.1:5500/Voyage/Voyage.html"}
+function voyage(){window.location="Voyage.html"}
 
 function panier1(){
 	Swal.fire({
