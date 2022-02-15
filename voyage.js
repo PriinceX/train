@@ -1,4 +1,4 @@
-function choix(){window.location="http://127.0.0.1:5500/Choix/choix.html"}
+function choix(){window.location="choix.html"}
 
 function valid(){
    var mail= document.getElementById("mail");
@@ -14,7 +14,7 @@ function valid(){
         localStorage.setItem("date",date.value );
         localStorage.setItem("mois",mois.value );
         localStorage.setItem("annee",annee.value );
-        window.location="http://127.0.0.1:5500/paiement/Paiement.html";
+        window.location="Paiement.html";
     }else{
         alert("erreur");
     }
